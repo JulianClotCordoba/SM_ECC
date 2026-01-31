@@ -5,6 +5,8 @@ namespace SM_WEB.Controllers
 {
     public class HomeController : Controller
     {
+        // Inicio, Login, Registro, Recuperar Contraseña
+
         public IActionResult Index()
         {
             return View();
